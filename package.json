@@ -1,0 +1,24 @@
+{
+  "name": "node.js_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chimoha31/Node.js_Basic.git"
+  },
+  "author": "chiho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chimoha31/Node.js_Basic/issues"
+  },
+  "homepage": "https://github.com/Chimoha31/Node.js_Basic#readme",
+  "dependencies": {
+    "grunt": "^1.4.1",
+    "express": "*"
+
+  }
+}
