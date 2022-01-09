@@ -1,12 +1,12 @@
 console.log('app.js稼働開始');
 
 // require()関数→外部ファイルを呼び出すための関数
-const fs = require("fs");
-const os = require("os");
+// const fs = require("fs");
+// const os = require("os");
 
-const notes = require("./notes.js");
-let result = notes.addNote();
-console.log(result);
+// const notes = require("./notes.js");
+// let result = notes.addNote();
+// console.log(result);
 
 // let user = os.userInfo();
 // // console.log(user);
@@ -17,3 +17,6 @@ console.log(result);
 //     console.log(err);
 //   }
 // });
+
+const fs = require("fs");
+const notes = require("./notes.js");
